@@ -1,0 +1,45 @@
+{
+   "name": "pocketmr",
+   "version": "0.0.1",
+   "description": "The little server for big data",
+   "keywords": [
+       "map",
+       "reduce",
+       "distributed"
+   ],
+   "maintainers": [
+       {
+           "name": "moonstuff",
+           "web": "https://github.com/moonstuff" 
+       },
+   ],
+   "bugs": {
+       "web": "http://github.com/moonstuff/pocketmr/issues" 
+   },
+   "licenses": [
+       {
+           "type": "MIT",
+           "url": "http://opensource.org/licenses/mit-license.php" 
+       } 
+   ],
+   "repositories": [
+       {
+           "type": "git",
+           "url": "git://github.com/moonstuff/pocketmr.git" 
+       } 
+   ],
+   "main": "index",
+   "directories": {
+       "lib": "./lib"
+   },
+   "bin": {
+    "pocketmr":     "./bin/pocketmr"
+   },
+   "os": [ "linux", "darwin" ],
+   "dependencies": {},
+   "devDependencies": {
+     "vows": "*",
+     "coffee-script": "*"
+   },
+   "engines": { "node": ">=0.4.0" }
+}
