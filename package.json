@@ -11,7 +11,7 @@
        {
            "name": "moonstuff",
            "web": "https://github.com/moonstuff" 
-       },
+       }
    ],
    "bugs": {
        "web": "http://github.com/moonstuff/pocketmr/issues" 

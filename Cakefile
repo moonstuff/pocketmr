@@ -23,7 +23,10 @@ task 'test', 'Test the app', (options) ->
   # invoke 'build'
 
   args = [
-    'spec/test_espresso.coffee'
+    'test/test_derp.coffee', # Pretty useless, but if it fails then something is very wrong.
+    'test/test_pocketmr.coffee',
+    'test/test_worker.coffee',
+    'test/test_dataset.coffee',
   ]
   args.unshift '--spec' if options.spec
 
